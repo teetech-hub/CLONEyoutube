@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  z-index: 100;
+  margin-bottom: 20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+.left-side {
+  display: flex;
+  width: 339px;;  
+}
+  .hamburger-menu {
+  width: 20px;
+  margin: 20px
+  }
+
+  .youtube-logo {
+  width: 83px;
+ }
+.center {
+  display: flex;
+  flex: 1;
+  
+}
+  .search-bar {
+    flex: 1;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 15px;
+    max-width: 400px;
+  }
+  .search-bar::placeholder {
+    font-family: roboto, arial;
+
+  }
+  .button-button {
+    width: 60px;
+    height: 36px;
+    border-width: 0.3px;
+    border-color: rgb(160, 159, 159);
+    margin-left: -2px;
+    background-color: rgb(247, 244, 244);
+  }
+  .button-icon {
+    width: 17px
+  }
+  .voice-button {
+    border-radius: 215px;
+    border: 0;
+    margin-left: 7px;
+  }
+  .voice-icon {
+    width: 22px;
+  }
+
+.right-side { 
+  display: flex;
+  width: 200px;
+  margin-left: 100px;
+  justify-content:space-between;
+  background-color: white;
+
+}
+  .upload-button{
+    background-color: white;
+    border: 0;
+  }
+  .upload-button {
+    width: 33px;
+  }
+  .app-button {
+    width: 40px;
+    background-color: white;
+    border: 0;
+  }
+  .app-icon {
+    width: 20px;
+  }
+  .notification-button {
+    background-color: white;
+    border: 0;
+  }
+  .notification-icon {
+    width: 23px;
+  }
+  .my-channel {
+    align-items: center;
+    margin-right: 15px;
+    background-color: white;
+    border: 0;
+  
+  }
+  .channel-profile {
+    width: 30px;
+    border-radius: 10px;
+  }
